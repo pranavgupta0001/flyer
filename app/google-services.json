@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "945789598068",
+    "firebase_url": "https://flyer-a1dc6.firebaseio.com",
+    "project_id": "flyer-a1dc6",
+    "storage_bucket": "flyer-a1dc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945789598068:android:0650d77d8bde3720",
+        "android_client_info": {
+          "package_name": "com.example.prana.flyer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945789598068-utoqnl0dp8vat76kfc4d9g899u3364vc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prana.flyer",
+            "certificate_hash": "5b9ead59489027b5c32b3bfefae7cc6284ebef29"
+          }
+        },
+        {
+          "client_id": "945789598068-gtadteg2d13pd2l84cqs9ie0pa06kt6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVuYZwgV6J1V4cxZ8ey_iNeFiy2AlZsL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945789598068-gtadteg2d13pd2l84cqs9ie0pa06kt6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
