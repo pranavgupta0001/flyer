@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        android:theme="@style/AppTheme"
+        >
         <activity android:name=".UserLogActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,7 +47,13 @@
             android:name=".EntryNavActivity"
             android:label="@string/title_activity_entry_nav"
             android:theme="@style/NoActionBar" />
-        <activity android:name=".WebBrowserActivity"></activity>
+        <activity android:name=".WebBrowserActivity" />
+
+
+        <activity android:name=".FlyerSelectionActivity"
+            android:theme="@style/NoActionBar" >></activity>
+        <activity android:name=".Navigation.ServicesActivity"
+            android:theme="@style/NoActionBar"></activity>
     </application>
 
 </manifest>

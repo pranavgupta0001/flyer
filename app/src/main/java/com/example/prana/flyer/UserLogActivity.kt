@@ -254,13 +254,13 @@ class UserLogActivity : AppCompatActivity() {
         //Move to next Activity
         buttonNum = 3
         Snackbar.make(findViewById(R.id.main_layout), "Authentication Failed.", Snackbar.LENGTH_SHORT).show()
-        var intent = Intent(this, EntryNavActivity::class.java)
+        var intent = Intent(this, FlyerSelectionActivity::class.java)
         startActivity(intent)
     }
 
     fun logIn() {
         //Move to next Activity
-        var intent = Intent(this, EntryNavActivity::class.java)
+        var intent = Intent(this, FlyerSelectionActivity::class.java)
         var guest: String
         when (buttonNum) {
             1 -> guest = mAuth.currentUser?.displayName ?: String()
